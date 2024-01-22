@@ -1,11 +1,9 @@
-// app.js
-
 import express from 'express';
 import productsRouter from './routes/products.router.js';
 import connect from './schemas/index.js';
 
 const app = express();
-const PORT = 3000; // 서버를 열 때 사용할 포트 번호
+const PORT = 3000;
 
 connect();
 
